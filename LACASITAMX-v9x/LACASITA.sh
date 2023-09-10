@@ -118,7 +118,7 @@ echo -e "\e[1;31m	🖥SISTEMA: \e[33m$distro $vercion   "
 echo -e "\e[1;31m	🖥IP: \e[33m$MI   "
 #apt list --upgradable &>/dev/null && echo -e "\033[97m    ❯ INSTALANDO APT-LIST " | pv -qL 50 |lolcat -as 500
 msg -bar2
-echo -e "   \e[1;97m\e[1;100m =====>>►►  SCRIPT MOD LACASITAMX  ◄◄<<===== \033[0m"
+echo -e "   \e[1;97m\e[1;100m =====>>►►  SAMIDU SSCF  ◄◄<<===== \033[0m"
 msg -bar
 echo -e "\033[97m"
 echo -e "  \033[41m    -- INSTALACION DE PAQUETES  --    \e[49m"
@@ -576,7 +576,7 @@ wget -O /var/www/html/estilos.css https://raw.githubusercontent.com/lacasitamx/V
 [[ -f "/usr/sbin/ufw" ]] && ufw allow 443/tcp &>/dev/null; ufw allow 80/tcp &>/dev/null; ufw allow 3128/tcp &>/dev/null; ufw allow 8799/tcp &>/dev/null; ufw allow 8080/tcp &>/dev/null; ufw allow 81/tcp &>/dev/null
 clear
 msg -bar2
-echo -e "   \e[1;97m\e[1;100m =====>>►►  SCRIPT MOD LACASITAMX  ◄◄<<===== \033[0m"
+echo -e "   \e[1;97m\e[1;100m =====>>►►  Dark Error  ◄◄<<===== \033[0m"
 #msg -ama "  \033[1;96m      🔰Usar Ubuntu 20 a 64 De Preferencia🔰 "
 msg -bar2
 [[ $1 = "" ]] && funcao_idioma || {
